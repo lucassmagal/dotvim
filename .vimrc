@@ -1,5 +1,7 @@
 let $VIMHOME = $HOME."/.vim"
 
+colorscheme solarized
+
 " Para detectar o tipo de arquivo aberto
 filetype on
 
