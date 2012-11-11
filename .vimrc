@@ -1,7 +1,5 @@
 let $VIMHOME = $HOME."/.vim"
 
-colorscheme mustang
-
 " Para detectar o tipo de arquivo aberto
 filetype on
 
@@ -143,6 +141,11 @@ cmap w!! w !sudo tee % >/dev/null
 " Copiar/colar externo
 map <leader>yy "+yy
 map <leader>pp "+p
+
+" POWERLINE
+set laststatus=2
+set t_Co=256
+let g:Powerline_symbols = 'unicode'
 
 " PATHOGEN
 " ========
