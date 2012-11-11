@@ -143,3 +143,8 @@ cmap w!! w !sudo tee % >/dev/null
 " Copiar/colar externo
 map <leader>yy "+yy
 map <leader>pp "+p
+
+" PATHOGEN
+" ========
+
+call pathogen#infect()
