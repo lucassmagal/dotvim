@@ -145,12 +145,36 @@ cmap w!! w !sudo tee % >/dev/null
 map <leader>yy "+yy
 map <leader>pp "+p
 
-" POWERLINE
-set laststatus=2
-set t_Co=256
-let g:Powerline_symbols = 'unicode'
+" Tabs
+map <leader>tt :tabnew<CR>
+map <leader>tc :tabclose<CR>
+map <S-Right> :tabnext<CR>
+map <S-Left> :tabprev<CR>
+
+" Buffers
+map <A-Right> :bnext<CR>
+map <A-Left> :bprevious<CR>
+
+" NERDTree
+noremap <F5> :NERDTreeToggle<CR>
+inoremap <F5> <C-O>:NERDTreeToggle<CR>
+
+" Taglist
+noremap <F4> :TlistToggle<CR>
+inoremap <F4> <C-O>:TlistToggle<CR>
 
 " PATHOGEN
 " ========
 
 call pathogen#infect()
+
+" CONFIGURAÇÕES DE PLUGINS
+" ========================
+
+" CTRLP
+let g:ctrlp_show_hidden = 1
+
+" POWERLINE
+set laststatus=2
+set t_Co=256
+let g:Powerline_symbols = 'unicode'
