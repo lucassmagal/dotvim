@@ -178,3 +178,7 @@ let g:ctrlp_show_hidden = 1
 set laststatus=2
 set t_Co=256
 let g:Powerline_symbols = 'unicode'
+
+" NERDTree
+let NERDTreeIgnore=['\.orig$', '\.pyc$', '\~$']
+
