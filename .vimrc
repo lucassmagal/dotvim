@@ -1,7 +1,6 @@
 let $VIMHOME = $HOME."/.vim"
 
-set background=dark
-colorscheme solarized
+colorscheme desert
 
 " Para detectar o tipo de arquivo aberto
 filetype on
@@ -181,4 +180,8 @@ let g:Powerline_symbols = 'unicode'
 
 " NERDTree
 let NERDTreeIgnore=['\.orig$', '\.pyc$', '\~$']
+
+" Vim-Session
+let g:session_autoload = "no"
+let g:session_autosave = "no"
 
