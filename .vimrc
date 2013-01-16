@@ -162,6 +162,9 @@ inoremap <F5> <C-O>:NERDTreeToggle<CR>
 noremap <F4> :TlistToggle<CR>
 inoremap <F4> <C-O>:TlistToggle<CR>
 
+" Numbers.vim
+nnoremap <F3> :NumbersToggle<CR>
+
 " PATHOGEN
 " ========
 
